@@ -1,0 +1,349 @@
+:root{
+--secondary-text-color:#4d5ae5;
+
+}
+.body{
+font-family: "Roboto",sans-serif;
+color: #434455;
+background-color:#ffffff
+}
+/* скидання маркерів і декору */
+.list{
+    list-style: none;
+    
+} 
+
+
+.link{
+    text-decoration: none;
+}
+/* скидання маркерів і декору */
+
+.container{
+    
+}
+
+/* ========HEADER ============*/
+
+/* логотип */
+.accent-studio{
+    font-family: "Raleway",sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#2E2F42;
+}
+
+.logo{
+    font-family: "Raleway",sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height:1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color:#4D5AE5 ;
+        text-decoration: none;
+}   
+.logo:hover,
+.logo:focus,
+.accent-studio:hover,
+.accent-studio:focus{
+color:#404BBF
+}
+/* логотип */
+
+
+
+
+/* список посилань */
+
+.menu-link{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+
+        color:#2E2F42;
+}
+
+
+.menu-link:hover{
+    color: #404BBF
+}
+.menu-link:focus{
+color: #404BBF
+             
+}
+/* /список посилань */
+
+
+
+/* адреса */
+.address-link{
+
+list-style:none;
+font-style: normal;
+}
+
+.menu-address{
+
+    font-style: normal;
+    list-style: none;
+}
+
+.mail-link{
+font-style: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455
+}
+
+
+.mail-link:hover,
+.mail-link:focus{
+  color: #404BBF;
+
+}
+
+.tel-link:hover,
+.tel-link:focus{
+    color: #404BBF;
+}
+/* /адреса */
+
+/* ========/HEADER ============*/
+
+
+/* ===========MAIN=================== */
+
+
+ /* заголовок-кнопка */
+
+.hero{
+    background-color:#2e2f42;
+}
+
+.hero-title {
+
+         font-size: 56px;
+          line-height: 1.07; 
+          text-align:center; 
+            letter-spacing: 0.02em;
+            color:#ffffff;
+        }
+        
+.btn-list{
+    font-family: "Roboto", sans-serif;
+        background-color: #4D5AE5; 
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em; 
+        color: #ffffff;    
+        cursor: pointer;
+    }
+            
+     .btn-list:hover,
+     .btn-list:focus
+{
+background: #404BBF;
+color: #ffffff;
+}
+  /* /заголовок-кнопка */
+         
+          
+    /* oпис роботи */
+.menu-list{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: #2E2F42;}
+.caption{
+    font-family:"Roboto",
+        sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+   color: #2e2f42;
+}
+.thumb{
+    background-color: #FFFFFF;
+}
+
+.text-list{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+ /* /oпис роботи */
+
+
+
+ /* oпис роботи зображення */
+
+
+.title-list{
+font-family: "Roboto",
+    sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+      text-align:center;
+        color:#2e2f42;
+        text-transform:capitalize;
+        background-color: #ffffff;
+}
+
+
+
+.section-text{
+background-color: #F4F4FD;
+
+}
+
+.title-list {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+    text-transform: capitalize;
+    background-color: #ffffff;
+}
+
+
+
+.text-img{
+
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+
+} 
+
+
+
+
+
+
+/* .heading {
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42
+} */
+/* .desc-img{ 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+
+} */
+
+.text-subject {
+                     font-family: "Roboto", sans-serif;
+                     font-size: 16px;
+                     line-height: 1.5;
+                     letter-spacing: 0.02em;
+                     color: #ffffff;}
+
+.text-paragreph{
+ font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em; 
+         color: #ffffff; 
+}
+
+/* /oпис роботи зображення */
+ 
+/* ===========/MAIN=================== */
+
+
+
+
+/*========== FOOTER================*/
+
+.footer{
+background-color: #2E2F42;
+font-family: "Raleway", sans-serif;
+font-weight: 800;
+font-size:18px;
+line-height:1.17;
+letter-spacing:0.03em;
+text-transform:uppercase;
+color:#4D5AE5;
+
+
+}
+
+.accent{
+    font-family: 'Raleway' sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #F4F4FD;
+}
+.logo:hover,
+.logo:focus,
+.accent:hover,
+.accent:focus {
+    color: #404BBF
+}
+/*==========/ FOOTER================*/
+
+
+   /* портфоліо заголовок */
+.btn-text{
+font-family: "Roboto", sans-serif;
+    background-color: #F4F4FD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    cursor: pointer;
+}
+
+         .btn-text:hover,
+         .btn-text:focus {
+             background: #404BBF;
+             color: #ffffff;
+         }
+
+
+                 
+ /* портфоліо заголовок */
+
+
+
+
+
+ 
+  
+   
+      
+
+
+
+
+
