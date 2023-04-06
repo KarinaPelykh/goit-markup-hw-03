@@ -7,6 +7,10 @@
     <title>Main page</title>
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,42 +18,44 @@
       rel="stylesheet"
     />
   </head>
-  <body class="body">
+  <body>
     <!-- =========HEADER======= -->
     <header class="header">
-      <nav class="navigation list">
-        <a class="logo link" href="./index.html"
-          >Web<span class="accent-studio">Studio</span></a
-        >
+      <div class="container">
+        <nav class="navigation list header-nav">
+          <a class="logo link" href="./index.html"
+            >Web<span class="accent-studio">Studio</span></a
+          >
 
-        <ul class="menu-list list">
-          <li class="menu-item list">
-            <a class="menu-link link" href="./index.html">Studio</a>
-          </li>
-          <li class="menu-item list">
-            <a class="menu-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="menu-item list">
-            <a class="menu-link link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
+          <ul class="menu-list list">
+            <li class="menu-item list">
+              <a class="menu-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-item list">
+              <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-item list">
+              <a class="menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
 
-      <address class="address-link list">
-        <ul class="mune-address list">
-          <li class="list">
-            <a class="mail-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
+        <address class="address-link list header-nav">
+          <ul class="menu-address list">
+            <li class="menu-item list">
+              <a class="mail-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
 
-          <li class="list">
-            <a class="mail-link link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+            <li class="menu-item list">
+              <a class="mail-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <!-- =========/HEADER======= -->
 
@@ -60,88 +66,122 @@
       </section>
 
       <section class="section-text list">
-        <h2 class="subtitle" hidden>Strategy</h2>
-        <ul class="menu list">
-          <li class="list">
-            <h3 class="caption">Strategy</h3>
-            <p class="text-list">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
+        <div class="container-desc">
+          <h2 class="subtitle" hidden>Strategy</h2>
+          <ul class="menu-subtitle list">
+            <li class="items-li list">
+              <h3 class="caption">Strategy</h3>
+              <p class="text-list">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
 
-          <li class="list">
-            <h3 class="caption">Punctuality</h3>
-            <p class="text-list">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li class="list">
-            <h3 class="caption">Diligence</h3>
-            <p class="text-list">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li class="list">
-            <h3 class="caption">Technologies</h3>
-            <p class="text-list">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+            <li class="items-li list">
+              <h3 class="caption">Punctuality</h3>
+              <p class="text-list">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="items-li list">
+              <h3 class="caption">Diligence</h3>
+              <p class="text-list">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="items-li list">
+              <h3 class="caption">Technologies</h3>
+              <p class="text-list">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <section class="img">
-        <h2 class="title-list list">What are we doing</h2>
-        <ul class="memu list">
-          <li class="list pic">
-            <img src="./images/img-1.jpg" alt="laptop" width="360" />
-          </li>
-          <li class="list pic">
-            <img src="./images/img-2.jpg" alt="pictures" width="360" />
-          </li>
-          <li class="list pic">
-            <img src="./images/img-3.jpg" alt="phone" width="360" />
-          </li>
-        </ul>
+      <section class="section-img">
+        <div class="container">
+          <div class="container-title">
+            <h2 class="title-list list">What are we doing</h2>
+            <ul class="menu-img list">
+              <li class="list pic-section">
+                <img src="./images/img-1.jpg" alt="laptop" width="360" />
+              </li>
+              <li class="list pic-section">
+                <img src="./images/img-2.jpg" alt="pictures" width="360" />
+              </li>
+              <li class="list pic-section">
+                <img src="./images/img-3.jpg" alt="phone" width="360" />
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
 
       <section class="section-text list">
-        <h2 class="title-list">Our Team</h2>
-        <ul class="menu list">
-          <li class="list thumb">
-            <img src="./images/img-4.jpg" alt="foto" width="264" />
-            <h3 class="caption">Mark Guerrero</h3>
-            <p class="text-img">Product Designer</p>
-          </li>
+        <div class="container-text">
+          <div class="container-title">
+            <h2 class="title-img">Our Team</h2>
+            <ul class="menu-ul-list list">
+              <li class="list thumb">
+                <article>
+                  <div class="container-images">
+                    <img src="./images/img-7.jpg" alt="foto" width="264" />
+                  </div>
+                  <div class="container-heading">
+                    <h3 class="caption">Mark Guerrero</h3>
+                    <p class="text-img">Product Designer</p>
+                  </div>
+                </article>
+              </li>
 
-          <li class="list thumb">
-            <img src="./images/img-5.jpg" alt="foto" width="264" />
-            <h3 class="caption">Tom Ford</h3>
-            <p class="text-img">Frontend Developer</p>
-          </li>
+              <li class="list thumb">
+                <article>
+                  <div class="container-images">
+                    <img src="./images/img-4.jpg" alt="foto" width="264" />
+                  </div>
+                  <div class="container-heading">
+                    <h3 class="caption">Tom Ford</h3>
+                    <p class="text-img">Frontend Developer</p>
+                  </div>
+                </article>
+              </li>
 
-          <li class="list thumb">
-            <img src="./images/img-6.jpg" alt="foto" width="264" />
-            <h3 class="caption">Camila Garcia</h3>
-            <p class="text-img">Marketing</p>
-          </li>
+              <li class="list thumb">
+                <article>
+                  <div class="container-images">
+                    <img src="./images/img-6.jpg" alt="foto" width="264" />
+                  </div>
+                  <div class="container-heading">
+                    <h3 class="caption">Camila Garcia</h3>
+                    <p class="text-img">Marketing</p>
+                  </div>
+                </article>
+              </li>
 
-          <li class="list thumb">
-            <img src="./images/img-7.jpg" alt="foto" width="264" />
-            <h3 class="caption">Daniel Wilson</h3>
-            <p class="text-img">UI Designer</p>
-          </li>
-        </ul>
+              <li class="list thumb">
+                <article>
+                  <div class="container-images">
+                    <img src="./images/img-5.jpg" alt="foto" width="264" />
+                  </div>
+                  <div class="container-heading">
+                    <h3 class="caption">Daniel Wilson</h3>
+                    <p class="text-img">UI Designer</p>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
-      <a class="logo link" href="./index.html"
-        >Web <span class="accent">Studio</span></a
+      <a class="logo link logo-accent" href="./index.html"
+        >Web<span class="accent logo-accent">Studio</span></a
       >
 
       <p class="text-subject">
