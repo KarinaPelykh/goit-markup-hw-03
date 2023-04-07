@@ -31,33 +31,37 @@ ul {
 /* скидання маркерів і декору */
 
 .container {
-    display: flex;
+    /* display: flex;
+    align-items: center; */
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
+    
 }
+
 img{
     display:block;
 }
-/* ========HEADER ============*/
+/* ====================================HEADER================== ============*/
 
 header {
-    background: #FFFFFF;
     border-bottom: 1px solid #E7E9FC
+}
+.header-menu{
+    display: flex;
+    align-items:center ;
 }
 
 .header-nav {
     display: flex;
     align-items: center;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
 }
 
-
-/* логотип */
+/* ================логотип============== */
 .accent-studio {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -88,11 +92,11 @@ header {
     color: #404BBF
 }
 
-/* логотип */
+/* ///////////////логотип ////////////////////*/
 
 
 
-/* список посилань */
+/* ================список посилань =================*/
 .menu-list .menu-link {
     display: block;
     padding-top: 24px;
@@ -113,10 +117,10 @@ header {
     color: #404BBF
 }
 
-/* /список посилань */
+/* /////////////////список посилань /////////////////////*/
 
 
-/* адреса */
+/* ===========================адреса==================== */
 .address-link {
     margin-left: auto;
     list-style: none;
@@ -127,7 +131,7 @@ header {
     display: flex;
     font-style: normal;
     list-style: none;
-    margin-right: 40px;
+    /* margin-right: 40px; */
 }
 
 .menu-address .menu-item+.menu-item {
@@ -154,13 +158,13 @@ header {
     color: #404BBF;
 }
 
-/* /адреса */
+/*////////////////// //////////////адреса/////////////////////////////// */
 
-/* ========/HEADER ============*/
+/* ========////////////////////HEADER //////////////////////============*/
 
 /* ===========MAIN=================== */
 
-/* заголовок-кнопка */
+/* ================заголовок-кнопка ================*/
 
 .hero {
     text-align: center;
@@ -205,7 +209,7 @@ header {
     color: #ffffff;
 }
 
-/* /заголовок-кнопка */
+/* ///////////////////заголовок-кнопка/////////////////// */
 
 
 /* oпис роботи */
@@ -245,9 +249,9 @@ header {
     margin-left: 76px;
 }
 
-.menu-list .menu-item+.menu-item {
+/* .menu-list .menu-item+.menu-item {
     margin-right: 40px;
-}
+} */
 
 .menu-list li {
     margin-right: 40px;
@@ -525,9 +529,9 @@ padding: 100px 0;
     display:inline-block
 }
 
-.menu-address .menu-item+.menu-item {
+/* .menu-address .menu-item+.menu-item {
     margin-right: 40px;
-}
+} */
 
 /* sdkskdbvjkdvkjs; */
 .container-button {
