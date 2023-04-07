@@ -31,11 +31,9 @@ ul {
 /* скидання маркерів і декору */
 
 .container {
-    /* display: flex;
-    align-items: center; */
+    
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
     margin-left: auto;
     margin-right: auto;
     
@@ -57,8 +55,7 @@ header {
 .header-nav {
     display: flex;
     align-items: center;
-    /* padding-left: 15px;
-    padding-right: 15px; */
+    
 }
 
 /* ================логотип============== */
@@ -97,6 +94,16 @@ header {
 
 
 /* ================список посилань =================*/
+.menu-list {
+    display: flex;
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
 .menu-list .menu-link {
     display: block;
     padding-top: 24px;
@@ -131,7 +138,7 @@ header {
     display: flex;
     font-style: normal;
     list-style: none;
-    /* margin-right: 40px; */
+    gap: 40px;
 }
 
 .menu-address .menu-item+.menu-item {
@@ -239,15 +246,14 @@ header {
 
     width: 264px;
     margin-right: 24px;
+    
 }
 
-.item-li{
+.menu-subtitle > .item-li{
     flex-basis:calc(100% - 3 * 24px)
 }
 
-.menu-list {
-    margin-left: 76px;
-}
+
 
 /* .menu-list .menu-item+.menu-item {
     margin-right: 40px;
@@ -264,14 +270,7 @@ header {
     padding-bottom: 144px;
 } */
 
-.menu-list {
-    display: flex;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.15;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
+
 
 
 .caption {
@@ -311,15 +310,11 @@ header {
     padding-bottom: 120px;
     
 }
-/* .container-title {
-    width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 120px;
-} */
+
 
 .title-list {
    margin-bottom: 72px;
+
     font-family: "Roboto",
         sans-serif;
     font-weight: 700;
@@ -334,9 +329,12 @@ header {
 
 .menu-img {
     display: flex;
+    margin-right: 24px;
     flex-wrap: nowrap;
     width: 360px;
-    margin-right: 24px;
+    margin-left: -16px;
+        margin-bottom: -48px;
+    
 }
 
 .pic-section {
@@ -346,8 +344,10 @@ header {
    margin-right: 24px;
     padding: 0;
 }
-.pic-section{
+.menu-img > .pic-section{
     flex-basis:calc((100% - 3 * 16px) / 3) ;
+    margin-left:16px ;
+    margin-bottom: 48px;
 }
 
 /* 4 секція */
@@ -526,7 +526,7 @@ padding: 100px 0;
 /* портфоліо заголовок */
 .logo-accent {
     margin-bottom: 16px;
-    display:inline-block
+    display:inline-block;
 }
 
 /* .menu-address .menu-item+.menu-item {
