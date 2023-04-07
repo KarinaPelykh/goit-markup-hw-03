@@ -52,6 +52,8 @@ header {
 .header-nav {
     display: flex;
     align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
@@ -67,6 +69,7 @@ header {
 }
 
 .logo {
+    display: inline-block;
     margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -168,8 +171,8 @@ header {
 
 .hero-title {
     max-width: 496px;
-    /* margin-top: 0;
-    margin-bottom: 48px; */
+    margin-top: 0;
+    margin-bottom: 48px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -177,13 +180,14 @@ header {
     color: #ffffff;
 }
 
-.btn-list {
+.btn-list {    
+
     display:block;
    height:56px;
    border: none;
     min-width: 169px;
     border-radius: 4px;
-    /* padding: 16px 32px; */
+    padding: 16px 32px;
 
     font-family: "Roboto", sans-serif;
     background-color: #4D5AE5;
@@ -277,13 +281,14 @@ header {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-
+/* 4 секція */
 .thumb {
     width: 264px;
     background-color: #F4F4FD;
-    ;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     margin-right: 24px;
-
+    flex-basis: calc((100% - 3 * 24px) / 4);
+/* 4 секція */
 }
 
 .text-list {
@@ -300,6 +305,7 @@ header {
 /* oпис роботи зображення */
 .section-img{
     padding-bottom: 120px;
+    
 }
 /* .container-title {
     width: 1158px;
@@ -337,15 +343,23 @@ header {
     padding: 0;
 }
 .pic-section{
-    flex-basis:calc((100% - 48px) / 3) ;
+    flex-basis:calc((100% - 3 * 16px) / 3) ;
 }
+
+/* 4 секція */
+
 .container-heading {
     text-align: center;
-    margin: 32px 16px 32px 16px;
+   padding: 32px 16px 32px 16px;
+border-radius: 0px 0px 4px 4px;
 }
+/* /4 секція */
+
+/* 4 секція */
 .title-img {
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
+    /* padding-top: 120px;
+    padding-bottom: 72px; */
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -354,18 +368,10 @@ header {
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
+/* /4 секція */
 
-.menu-ul-list {
-
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -24px;
-    margin-bottom: -48px;
-}
 
 .text-img {
     margin: 0;
@@ -376,14 +382,38 @@ header {
 
 }
 
-.container-text {
+.container {
     display: flex;
     width: 1158px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;outline:solid tomato  2px;
 }
 
+.section-text-img{
+    background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+   
+}
+/* 4 секція */
+.menu-ul-list {
+ 
+    margin-bottom: 72px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: -24px;
+    margin-bottom: -48px; */
+    margin-right: 25px;
+   
+}
+/* ///4 секція */
 
+.menu-ul-list > .thumb{
+    
+}
 
 /* .heading {
 
@@ -548,10 +578,10 @@ padding: 100px 0;
     height: auto;
 }
 
-.container-heading {
+/* .container-heading {
     text-align: center;
     margin: 32px 16px 32px 16px;
-}
+} */
 
 .container-ul-img {
     margin-bottom: 159px;
