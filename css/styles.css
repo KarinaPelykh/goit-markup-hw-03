@@ -23,7 +23,7 @@ h1,
 h2,
 h3,
 h4,
-ul {
+ul,p {
     margin: 0;
     padding: 0;
 }
@@ -31,7 +31,7 @@ ul {
 /* скидання маркерів і декору */
 
 .container {
-    display: flex;
+
     width: 1158px;
 padding-left: 15px;
 padding-right: 15px;
@@ -40,8 +40,9 @@ padding-right: 15px;
 outline: solid tomato 2px;
 }
 
-img{
+img{max-width: 100%;
     display:block;
+    height: auto;
 }
 /* ====================================HEADER================== ============*/
 
@@ -102,7 +103,7 @@ header {
 .menu-list {
     display: flex;
     gap:40px;
-    margin-right: 40px;
+  
     font-weight: 500;
     font-size: 16px;
     line-height: 1.15;
@@ -110,9 +111,7 @@ header {
     color: #2E2F42;
 }
 
-.menu-list li {
-    margin-right: 40px;
-}
+
 .menu-list .menu-link {
     display: block;
     padding-top: 24px;
@@ -150,9 +149,7 @@ header {
     gap: 40px;
 }
 
-.menu-address .menu-item + .menu-item {
-    margin-left: 40px;
-}
+
 
 .mail-link {
     font-style: normal;
@@ -181,12 +178,7 @@ header {
 /* ===========MAIN=================== */
 
 /* ================заголовок-кнопка ================*/
-.container-hero{
-    margin-left: auto;
-    margin-right: auto;
-}
 .hero {
-    /* text-align: center; */
     padding-top: 188px ;
     padding-bottom: 188px;
     background-color: #2e2f42;
@@ -194,6 +186,10 @@ header {
 
 .hero-title {
     max-width: 496px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
+    
  
     font-size: 56px;
     line-height: 1.07;
@@ -237,15 +233,7 @@ header {
     padding-top:120px;
     padding-bottom:120px;
 }
-/* .container {
-    display: flex;
-    width: 1158px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
 
-} */
 .menu-subtitle {
     display: flex;
     flex-wrap: wrap;
@@ -279,7 +267,7 @@ gap:24px;
     color: #434455;
 }
 .caption {
-text-align: center;
+
     margin-bottom: 8px;
     font-family: "Roboto",
         sans-serif;
@@ -289,18 +277,6 @@ text-align: center;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-
-/* 
-.menu-list .menu-item+.menu-item {
-    margin-right: 24px;
-}
-
-.menu-list li {
-    margin-right: 40px;
-} */
-
-
-
 /* ===========////////////////////ДРУГА СЕКЦІЯ=============== */
 
 /* ===========ТРЕТЯ СЕКЦІЯ=============== */
@@ -325,26 +301,14 @@ text-align: center;
 .menu-img {
     display: flex;
     gap: 24px;
-    /* flex-wrap: wrap;
-    width: 360px; */
+ 
    
 }
 .pic-section {
-    /* display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-margin-right: 24px;
-    padding: 0; */
+  
     width: calc((100% - 48px) / 3);
 }
-/* .menu-img > .pic-section{
-    /* flex-basis:calc((100% - 3 * 16px) / 3) ; */
-/* 
-} */ */
 
-/* .pic-section:nth-child(4n){
-    margin-right: 0;
-} */
 
 /* ===========//////////////////////ТРЕТЯ СЕКЦІЯ=============== */
 
@@ -352,7 +316,7 @@ margin-right: 24px;
 
 
 .section-text-img{
-    background-color: #F4F4FD;
+   
     padding-top: 120px;
     padding-bottom: 120px;
    
@@ -361,8 +325,6 @@ margin-right: 24px;
 .title-img {
  
     margin-bottom: 72px;
-    /* padding-top: 120px;
-    padding-bottom: 72px; */
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -374,12 +336,6 @@ margin-right: 24px;
    
     
     .menu-ul-list {
-
-   gap:24px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 24px;
-     
 flex-basis: calc((100% - 72px) / 4);
 }
 
@@ -387,8 +343,9 @@ flex-basis: calc((100% - 72px) / 4);
 .thumb {
     width: calc((100% - 72px) / 4);
     width: 264px;
-    background-color: #F4F4FD;
+    background: #FFFFFF;
     box-shadow: 0px 1px 6px  rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 
     flex-basis: calc((100% - 3 * 24px) / 4);
    
@@ -401,7 +358,7 @@ margin-right: 0;
 .container-heading {
     text-align: center;
    padding: 32px 16px 32px 16px;
-border-radius: 0px 0px 4px 4px;
+
 border: 1px solid #e7e9fc;
 border-top: none
 }
@@ -411,7 +368,7 @@ border-top: none
 
 .text-img {
     text-align: center;
-    margin: 8px;
+    margin:0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -419,14 +376,6 @@ border-top: none
 
 }
 
-/* .container {
-    display: flex;
-    width: 1158px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-left: auto;
-    margin-right: auto;outline:solid tomato  2px;
-} */
 
 
 
@@ -497,8 +446,7 @@ padding: 100px 0;
 
 }
 .logo-link{
-    display: inline-block;
-    /* margin-bottom: 76px; */
+   
 
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -531,11 +479,45 @@ padding: 100px 0;
 /*==========/ FOOTER================*/
 
 /* портфоліо заголовок */
+
+
+
+/* портфоліо заголовок */
+.logo-accent { 
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+   margin-bottom: 16px;
+   
+}
+/* Сторінка портфоліо; */
+
+ 
+
+.section-button{
+    padding-top: 96px;
+    padding-bottom:120px;
+}
+
+
+.btn-modal{
+    display: flex;
+    justify-content: center;
+    gap:24px;
+    margin-bottom: 72px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+    
+}
 .btn-text {
     display: inline-block;
     border-radius: 4px;
     padding: 12px 24px 12px 24px;
     border: 1px solid #E7E9FC;
+    border: 1px solid #e7e9fc;
     font-family: "Roboto", sans-serif;
     background-color: #F4F4FD;
     font-weight: 500;
@@ -546,99 +528,29 @@ padding: 100px 0;
     cursor: pointer;
 }
 
-
-
-/* портфоліо заголовок */
-.logo-accent {
-display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    margin-bottom: 16px;
-    display: inline-block;
-}
-
-/* .menu-address .menu-item+.menu-item {
-    margin-right: 40px;
-} */
-
-/* sdkskdbvjkdvkjs; */
-
-.section-button{
-    padding-top: 96px;
-    padding-bottom:120px;
-}
-.container {
-    display: flex;
-    width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-}
-
-.btn-modal{
-    gap:24px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    /* margin-top: 96px; */
-    margin-bottom: 72px;
-    justify-content: center;
-}
 .btn-text:hover,
 .btn-text:focus {
     background: #404BBF;
     color: #ffffff;
     border: 1px solid transparent;
 }
-
-
-/* .btn-modal .item+.item {
-    margin-left: 24px;
-} */
-
 .menu-ul-list {
-    /* margin: 0;
-    padding: 0; */
     display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-     row-gap: 48px;
-    /* gap:24px; */
-    /* margin-bottom: 72px; */
-    justify-content: center;
-    /* margin-right: 24px; */
-   
+    gap:24px;
+   flex-wrap: wrap;
+   column-gap: 24px;
+   row-gap: 48px;
 }
-
+.item-images {
+   
+    width: calc((100% - 48px) / 3);
+  
+}
 .container-ul-img {
     width: 1158px;
     margin-right: auto;
     margin-left: auto;
 }
-
-.menu-ul-list>.item-images {
-    /* outline: solid teal 2px; */
-    /* flex-basis: calc((100% - 48px) / 3); */
-    /* margin-left: 24px; */
-    
-}
-
-.item-images {
-    display: block;
-    width: calc((100% - 48px) / 3);
-    height: auto;
-}
-
-.container-heading {
-    text-align: center;
-    margin: 32px 16px 32px 16px;
-}
-
-/* .container-ul-img {
-    margin-bottom: 159px;
-} */
-
 .container-footer{
     width: 264px;
 }
