@@ -336,6 +336,7 @@ gap:24px;
    
     
     .menu-ul-list {
+        gap:24px;
 flex-basis: calc((100% - 72px) / 4);
 }
 
