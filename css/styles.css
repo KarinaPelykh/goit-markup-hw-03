@@ -336,7 +336,7 @@ gap:24px;
    
     
     .menu-ul-list {
-        gap:24px;
+      
 flex-basis: calc((100% - 72px) / 4);
 }
 
@@ -538,9 +538,9 @@ padding: 100px 0;
 .menu-ul-list {
     display: flex;
     gap:24px;
-   flex-wrap: wrap;
+   /* flex-wrap: wrap;
    column-gap: 24px;
-   row-gap: 48px;
+   row-gap: 48px; */
 }
 .item-images {
    
