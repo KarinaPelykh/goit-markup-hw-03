@@ -334,7 +334,12 @@ gap:24px;
     color: #2E2F42;
     text-transform: capitalize;}
    
-    
+    .menu-ul-list {
+    display: flex;
+    gap:24px;
+   
+}
+
     .menu-ul-list {
       
 flex-basis: calc((100% - 72px) / 4);
@@ -535,12 +540,13 @@ padding: 100px 0;
     color: #ffffff;
     border: 1px solid transparent;
 }
-.menu-ul-list {
+
+.menu-ul{
     display: flex;
-    gap:24px;
-   /* flex-wrap: wrap;
-   column-gap: 24px;
-   row-gap: 48px; */
+        gap: 24px;
+        flex-wrap: wrap;
+       column-gap: 24px;
+       row-gap: 48px;
 }
 .item-images {
    
